@@ -1,9 +1,9 @@
 # HoloLens Object Labeling (HOLa)
 Michael Schwimmbeck, Serouj Khajarian, and Stefanie Remmele (University of Applied Sciences Landshut)
 
-[Arxiv paper]() (To be added as soon as availbale)
+[Paper]() (To be added as soon as availbale)
 
-How to use:
+Video: How to use HOLa
 ![HOLa - How To Use.mp4](https://github.com/mschwimmbeck/HOLa/blob/main/media/HOLa_-_How_To_Use.mp4)
 
 Network Architecture:
