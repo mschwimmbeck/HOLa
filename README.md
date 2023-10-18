@@ -3,7 +3,7 @@ Michael Schwimmbeck, Serouj Khajarian, and Stefanie Remmele (University of Appli
 
 [Paper]() (To be added as soon as availbale)
 
-Video: How to use HOLa
+Video:
 [HOLa - How To Use.mp4](https://github.com/mschwimmbeck/HOLa/blob/main/media/HOLa_-_How_To_Use.mp4)
 
 Network Architecture:
