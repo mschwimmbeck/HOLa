@@ -1,13 +1,13 @@
 # HoloLens Object Labeling (HOLa)
 Michael Schwimmbeck, Serouj Khajarian, and Stefanie Remmele (University of Applied Sciences Landshut)
 
-[Arxiv paper]() tbd: Add final URL
+[Arxiv paper]() (To be added as soon as availbale)
 
 How to use:
-[HOLa - How To Use.mp4](media/HOLa_-_How_To_Use.mp4) tbd: Add final URL
+![HOLa - How To Use.mp4](https://github.com/mschwimmbeck/HOLa/blob/main/media/HOLa_-_How_To_Use.mp4)
 
 Network Architecture:
-![HOLa - System overview](media/HOLa_system_overview.png) tbd: Add final URL
+![HOLa - System overview](https://github.com/mschwimmbeck/HOLa/blob/main/media/HOLa_system_overview.png)
 
 ## Setup
 
@@ -34,9 +34,7 @@ Make sure to run this mode on a computer with GPU storage sufficient for running
 After the process has finished, you can find all object masks per frame in _./assets_.
 
 ### Credits
-TBD - Add final URL
-
-Licenses for borrowed code can be found in [licenses.md](https://github.com/z-x-yang/Segment-and-Track-Anything/blob/main/licenses.md) file.
+Licenses for borrowed code can be found in [licenses.md](https://github.com/mschwimmbeck/HOLa/blob/main/licenses.md) file.
 
 * DeAOT/AOT - [https://github.com/yoxu515/aot-benchmark](https://github.com/yoxu515/aot-benchmark)
 * SAM - [https://github.com/facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
@@ -44,9 +42,7 @@ Licenses for borrowed code can be found in [licenses.md](https://github.com/z-x-
 * HL2SS - [https://github.com/jdibenes/hl2ss](https://github.com/jdibenes/hl2ss)
 
 ### License
-TBD: Add final URL
-
-The project is licensed under the [AGPL-3.0 license](https://github.com/z-x-yang/Segment-and-Track-Anything/blob/main/LICENSE.txt). To utilize or further develop this project for commercial purposes through proprietary means, permission must be granted by us (as well as the owners of any borrowed code).
+The project is licensed under the [AGPL-3.0 license](https://github.com/mschwimmbeck/HOLa/blob/main/LICENSE.txt). To utilize or further develop this project for commercial purposes through proprietary means, permission must be granted by us (as well as the owners of any borrowed code).
 
 ### Citations
 Please consider citing the related paper(s) in your publications if it helps your research.
