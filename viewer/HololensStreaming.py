@@ -1,3 +1,13 @@
+# ------------------------------------------------------------------------
+# HOLa
+# url: https://github.com/mschwimmbeck/HOLa
+# Copyright (c) 2023 Michael Schwimmbeck. All Rights Reserved.
+# Licensed under the GNU Affero General Public License v3.0 [see LICENSE for details]
+# ------------------------------------------------------------------------
+# Modified from HL2SS (https://github.com/jdibenes/hl2ss/tree/main)
+# Copyright (c) 2022 by Stevens Institute of Technology. All Rights Reserved. [see licences for details]
+# ------------------------------------------------------------------------
+
 # We built this code on the hl2ss version 1.0.20.0, but added the following components from version 1.0.22.0:
 # - client_umq.py
 # - client_vi.py
