@@ -1,3 +1,14 @@
+# ------------------------------------------------------------------------
+# HOLa
+# url: https://github.com/mschwimmbeck/HOLa
+# Copyright (c) 2023 Michael Schwimmbeck. All Rights Reserved.
+# Licensed under the GNU Affero General Public License v3.0 [see LICENSE for details]
+# ------------------------------------------------------------------------
+# Modified from SAM-Track (https://github.com/z-x-yang/Segment-and-Track-Anything)
+# Copyright (c) 2023 Yangming Cheng et al., College of Computer Science and Technology, Zhejiang University. All Rights Reserved.
+# Licensed under the GNU Affero General Public License v3.0 [see licences for details]
+# ------------------------------------------------------------------------
+
 import sys
 sys.path.append("..")
 sys.path.append("./sam")
