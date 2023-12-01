@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------
+# HOLa
+# url: https://github.com/mschwimmbeck/HOLa
+# Copyright (c) 2023 Michael Schwimmbeck. All Rights Reserved.
+# Licensed under the GNU Affero General Public License v3.0 [see LICENSE for details]
+# ------------------------------------------------------------------------
+
 from viewer.HololensStreaming import main as hololens_streaming
 from SAMTrack import main as sam_track
 from frames2video import main as preprocess_frames
