@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------
+# SAM-Track 
+# url: https://github.com/z-x-yang/Segment-and-Track-Anything
+# Copyright (c) 2023 Yangming Cheng et al., College of Computer Science and Technology, Zhejiang University. All Rights Reserved.
+# Licensed under the GNU Affero General Public License v3.0 [see licences for details]
+# ------------------------------------------------------------------------
+
 aot_args = {
     'phase': 'PRE_YTB_DAV',
     'model': 'r50_deaotl',
