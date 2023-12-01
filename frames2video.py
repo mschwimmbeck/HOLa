@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------
+# HOLa
+# url: https://github.com/mschwimmbeck/HOLa
+# Copyright (c) 2023 Michael Schwimmbeck. All Rights Reserved.
+# Licensed under the GNU Affero General Public License v3.0 [see LICENSE for details]
+# ------------------------------------------------------------------------
+
 import cv2
 import os
 import re
