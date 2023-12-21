@@ -52,7 +52,7 @@ def combine_frames_to_video(frames_directory, output_path, fps):
     video_writer.release()
 
 
-def main(framerate, take):
+def main(take):
     # Specify the directory containing the frames
     frames_directory = "./hololens_recordings/Take" + take + "/pv"
 
@@ -60,7 +60,7 @@ def main(framerate, take):
     output_path = "./assets/frames_take_" + take + ".mp4"
 
     # Specify the desired frames per second (fps) for the output video
-    fps = int(framerate)
+    fps = 30
 
     # Combine frames into video
     combine_frames_to_video(frames_directory, output_path, fps)
