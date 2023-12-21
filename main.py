@@ -15,22 +15,22 @@ from frames2video import main as preprocess_frames
 host = 'X.X.X.X'
 # 2) Set the number of the recorded take e.g., '1' for Take1
 take = '1'
-# 3) Set the HoloLens framerate in fps
-framerate = '30'
+# 3) You can set a custom seedpoint for labeling mode. For using HOLa in default mode, set custom_seedpoint to None.
+custom_seedpoint = None
 ##############################
 
 
 def main():
     def recording_mode():
         # start recording mode
-        hololens_streaming(host, take, framerate)
+        hololens_streaming(host, take)
 
     def labeling_mode():
         # start labeling mode
         # 1) glue all recorded frames to a video
         # 2) hand the video to SAM-Track that tracks the object of interest throughout all frames and saves the labels
-        preprocess_frames(framerate, take)
-        sam_track(take)
+        preprocess_frames(take)
+        sam_track(take, custom_seedpoint)
 
     while True:
         # Create console main menu
