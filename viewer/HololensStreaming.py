@@ -34,7 +34,7 @@ from client_vi import stop_command as stop_voice_listener
 active_flag = True
 
 
-def main(host, take, framerate):
+def main(host, take):
 
     # General Settings --------------------------------------------------------------------
     # Pointcloud acquisition can be disabled in case of framerate decrease while recording.
@@ -58,7 +58,7 @@ def main(host, take, framerate):
     iso_speed_mode = hl2ss.PV_IsoSpeedMode.Manual
     iso_speed_value = 1600
     white_balance = hl2ss.PV_ColorTemperaturePreset.Auto
-    framerate = int(framerate)
+    framerate = 30
 
     # Buffer length in seconds----------------------------------------------------------------
     buffer_length = 10
