@@ -19,7 +19,7 @@ Michael Schwimmbeck, Serouj Khajarian, and Stefanie Remmele (University of Appli
 4) Create a **HoloLens 2 calibration file** with _./viewer/pv_extrinsic_calibration.py_ and save it to _./hololens_recordings/Calib_
 5) **Install the HOLa Unity app** (Releases: HOLa_1.0.0.0_ARM64.appx) on your HoloLens 2. (Alternatively, you can open _./unity_ in Unity, build the project as app and install the HOLa app on your HoloLens 2 by yourself).
 6) Make sure that both computer and HoloLens 2 are **connected to the same Wi-Fi**. Enter your **HoloLens IP address** as "General settings" -> host in _main.py_.
-7) Set a **take number** in "General settings" and specify the desired **framerate**. Note that the framerate does not conflict with the hardware properties of the HoloLens.
+7) Set a **take number** in "General settings".
 8) **Run HOLa** on your HoloLens 2.
 9) Run **main.py** on your computer and follow the console instructions.
 
@@ -34,6 +34,7 @@ Recording is based on [HL2SS](https://github.com/jdibenes/hl2ss). Data are acqui
 
 Make sure to run this mode on a computer with GPU storage sufficient for running Segment Anything (SAM). 
 After the process has finished, you can find all object masks per frame in _./assets_.
+Note: If you wish to set a custom seedpoint for labeling subsequent to recording, you can specifiy the seedpoint in "General settings" in **main.py**.
 
 ### Credits
 Licenses for borrowed code can be found in [licenses.md](https://github.com/mschwimmbeck/HOLa/blob/main/licenses.md) file.
