@@ -73,10 +73,14 @@ def draw_mask(img, mask, alpha=0.5, id_countour=False):
     return img_mask.astype(img.dtype)
 
 
-def sam_seedpoint_prompt(frame):
+def sam_seedpoint_prompt(frame, custom_seedpoint):
     # by default, the seedpoint is set to the frame's center as the sphere cursor simulates this point in HOLa app
     # if you change the frame size, the seedpoint has to be set to the frame's center again
-    seedpoint = (320, 180)
+    if not custom_seedpoint:
+        seedpoint = (320, 180)
+    else:
+        seedpoint = custom_seedpoint
+        print("Selected custom seedpoint!")
 
     from segment_anything import sam_model_registry, SamPredictor
 
@@ -110,7 +114,7 @@ def sam_seedpoint_prompt(frame):
     return best_mask
 
 
-def main(take):
+def main(take, custom_seedpoint):
     # set up file names
     video_name = 'frames_take_' + take
     io_args = {
@@ -140,7 +144,7 @@ def main(take):
         while cap.isOpened():
             ret, frame = cap.read()
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            pred_mask = sam_seedpoint_prompt(frame)
+            pred_mask = sam_seedpoint_prompt(frame, custom_seedpoint)
             torch.cuda.empty_cache()
             obj_ids = np.unique(pred_mask)
             obj_ids = obj_ids[obj_ids != 0]
@@ -187,7 +191,7 @@ def main(take):
                 break
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             if frame_idx == 0:
-                pred_mask = sam_seedpoint_prompt(frame)
+                pred_mask = sam_seedpoint_prompt(frame, custom_seedpoint)
                 torch.cuda.empty_cache()
                 gc.collect()
                 segtracker.add_reference(frame, pred_mask)
