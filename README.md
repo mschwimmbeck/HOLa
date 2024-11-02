@@ -1,7 +1,7 @@
 # HoloLens Object Labeling (HOLa)
 Michael Schwimmbeck, Serouj Khajarian, and Stefanie Remmele (University of Applied Sciences Landshut)
 
-**[Paper]()** (To be added as soon as available)
+**[Read Paper Preprint](https://www.researchgate.net/publication/385433822_HOLa_HoloLens_Object_Labeling)** (Accepted by BMT 2024)
 
 **How To Use HOLa (YouTube video):**
 
