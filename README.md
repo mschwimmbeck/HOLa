@@ -1,7 +1,7 @@
 # HoloLens Object Labeling (HOLa)
 Michael Schwimmbeck, Serouj Khajarian, and Stefanie Remmele (University of Applied Sciences Landshut)
 
-**[Read Paper Preprint](https://www.researchgate.net/publication/385433822_HOLa_HoloLens_Object_Labeling)** (Accepted by BMT 2024)
+**[Read Paper](https://www.degruyter.com/document/doi/10.1515/cdbme-2024-2140/html)**
 
 **How To Use HOLa (YouTube video):**
 
@@ -50,7 +50,16 @@ The project is licensed under the [AGPL-3.0 license](https://github.com/mschwimm
 ### Citations
 Please consider citing the related paper(s) in your publications if it helps your research.
 ```
-TBD: Add paper
+@inproceedings{schwimmbeck2024hola,
+  title={HOLa: HoloLens Object Labeling},
+  author={Schwimmbeck, Michael and Khajarian, Serouj and Holzapfel, Konstantin and Schmidt, Johannes and Remmele, Stefanie},
+  booktitle={Current Directions in Biomedical Engineering},
+  volume={10},
+  number={4},
+  pages={571--574},
+  year={2024},
+  organization={De Gruyter}
+}
 
 @article{cheng2023segment,
   title={Segment and Track Anything},
