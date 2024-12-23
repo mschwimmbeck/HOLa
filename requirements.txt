@@ -1,6 +1,6 @@
-torch == 2.0.1  # GPU-compatible version!
+torch # GPU-compatible version!
 open3d == 0.17.0
-opencv-python == 4.8.0.74
+opencv-python == 4.8.1.78
 av == 10.0.0
 tifffile == 2023.7.18
 imageio == 2.31.1
